@@ -1,0 +1,75 @@
+body {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUhRZu_KaUYRRc5m8NmtlNXhMDs7m08OpW8xnjHbrFb2u05o7tdQ");
+    background-size: 500% 500%;
+    background-repeat: no-repeat;
+}
+
+#h1 {
+    text-align: center;
+    color: yellow;
+    font-size:40px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    float:center;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+  -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 550px;
+    height: 350px;
+    margin: 0 auto;
+    background-color: green;
+    border: 8px solid yellow;
+ 
+}
+
+#flex-item1 {
+    background-color: white;
+    border: 4px solid black;
+  -webkit-flex-direction: row;
+    flex-direction: row;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+}
+
+#flex-item2 {
+    background-color: white;
+    border: 4px solid black;
+  -webkit-flex-direction: row;
+    flex-direction: row;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+}
+
+#flex-item3 {
+    background-color: white;
+    border: 4px solid black;
+  -webkit-flex-direction: row;
+    flex-direction: row;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+}
+
+#flex-button {
+    background-color: red;
+    border: 2px solid black;
+    width: 100px;
+    height: 60px;
+    font-style:italic;
+    font-weight: bold;
+    font-family: Georgia, serif;
+  -webkit-align-self: center;
+    align-self: center;
+}
+
+#flex-button:hover { 
+    background-color: yellow;
+}
